@@ -3,7 +3,6 @@ import java.util.Date;
 
 public class Main {
 	public static void main(String[] args) {
-		
 		Employee e1 = new Employee(123,"ABC",56000);
 		e1.calSalary();
 		

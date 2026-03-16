@@ -6,8 +6,8 @@ public class EmpApp {
 		TechEmployee te1 = new TechEmployee(); // super()
 		te1.setEmployee(341285,"SS", 100000);
 		te1.setBonus(10000);
-		te1.disp();
-	    System.out.println("Bonus: "+te1.getBonus());
+		te1.disp(); //bonus to be displayed
+	    //System.out.println("Bonus: "+te1.getBonus());
 		te1.calSalary();
 		
 	}
