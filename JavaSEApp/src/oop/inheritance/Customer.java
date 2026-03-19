@@ -1,5 +1,5 @@
 package oop.inheritance;
-public class Customer {
+ public class Customer {
 	private int custId;
 	private String custName;
 	private double balance;
