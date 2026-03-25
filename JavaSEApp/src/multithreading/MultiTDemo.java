@@ -13,16 +13,15 @@ public class MultiTDemo extends Thread {
 			}
 		}
 	}
-
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		MultiTDemo t1 = new MultiTDemo();
 		t1.start();
-		
+		t1.join(1500);
 		MultiTDemo t2 = new MultiTDemo();
 		t2.start();
-		
-		
+		MultiTDemo t3 = new MultiTDemo();
+		t3.start();
 	}
 
 }
